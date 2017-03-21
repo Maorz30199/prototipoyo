@@ -1,0 +1,10 @@
+<div class="principal">
+  <uib-accordion close-others="oneAtATime">
+    <div uib-accordion-group class="panel-default" ng-repeat="post in posts" index="post.id">
+      <uib-accordion-heading>
+        {{post.title}} <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+      </uib-accordion-heading>
+      {{post.content}}
+    </div>
+  </uib-accordion>
+</div>

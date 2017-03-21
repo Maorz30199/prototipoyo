@@ -1,13 +1,4 @@
 'use strict';
-
-/**
- * @ngdoc overview
- * @name prototipoyoApp
- * @description
- * # prototipoyoApp
- *
- * Main module of the application.
- */
 angular
   .module('prototipoyoApp', [
     'ngAnimate',
@@ -29,6 +20,16 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl',
         controllerAs: 'about'
+      })
+      .when('/articulos', {
+        templateUrl: 'views/articulos.html',
+        controller: 'ArticulosCtrl',
+        controllerAs: 'articulos'
+      })
+      .when('/galeria', {
+        templateUrl: 'views/galeria.html',
+        controller: 'GaleriaCtrl',
+        controllerAs: 'galeria'
       })
       .otherwise({
         redirectTo: '/'

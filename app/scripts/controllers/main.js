@@ -40,7 +40,7 @@ angular.module('prototipoyoApp')
   $scope.contenidos =[
     {
       img: baseURL+'people/',
-      title: 'Acerca de nosotros',
+      title: 'Nosotros',
       summary: 'Comprometidos con la vida sana'
     },
     {
@@ -51,7 +51,7 @@ angular.module('prototipoyoApp')
     {
       img: baseURL+'transport/',
       title: 'Contáctanos',
-      summary: 'B/sevilla, Medellin'
+      summary: 'B/Sevilla, Medellin, Antioquia'
     }
   ]
 });
