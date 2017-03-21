@@ -4,6 +4,7 @@
   <div class="col-md-4" ng-repeat="pic in pictures">
     <h3>{{pic.title}}</h3>
     <img ng-src="{{pic.url}}">
+    <span uib-rating ng-model="rate" max="max" read-only="isReadonly" on-hover="hoveringOver(value)" on-leave="overStar = null" titles="['one','two','three']" aria-labelledby="default-rating"></span>
     <p>{{pic.summary}}</p>
   </div>
 
