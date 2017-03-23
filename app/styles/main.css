@@ -93,8 +93,25 @@ body {
   line-height: 30px;
   background-color: #eee;
   border-radius: 6px;
-  padding: 60px;
+  padding: 30px;
+}
+.articulos {
+    padding: 60px;
 }
 .thumbnails img{
   width: 100%
+}
+.gridStyles{
+  width: 940px;
+  height: 300px;
+}
+.modal-body input{
+    display: block;
+}
+.ng-valid{
+  border: thin solid #090;
+}
+.ng-invalid{
+  border: thin solid #990000;
+
 }

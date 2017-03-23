@@ -1,0 +1,7 @@
+[
+  {"no": "1", "nombre": "Carmen", "fidelidad": 3, "fechaUnion": "3/5/10", "tipoMiembro":"Free"},
+  {"no": "2", "nombre": "Mario", "fidelidad": 5, "fechaUnion": "3/5/05", "tipoMiembro":"Premium"},
+  {"no": "3", "nombre": "Juan", "fidelidad": 6, "fechaUnion": "3/5/10", "tipoMiembro":"Free"},
+  {"no": "4", "nombre": "Linda", "fidelidad": 7, "fechaUnion": "3/5/12", "tipoMiembro":"Premium"},
+  {"no": "5", "nombre": "Bella", "fidelidad": 9, "fechaUnion": "3/5/08", "tipoMiembro":"Free"}
+]
